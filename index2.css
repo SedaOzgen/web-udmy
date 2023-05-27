@@ -1,0 +1,35 @@
+/* Group selecters
+<!-- (p)--> tüm p etiketleri
+(div p) --> tüm div ve tüm p etiketleri
+(p+div)--> p etiketinden sonra gelen div etiketi */
+
+/*p{
+    color: red;
+} bütün p olanların rengini değişmesini sağlar grup seçimi yapılabilir*/
+
+/*div p {
+    color: rebeccapurple;
+}  Div içerisinde bulunan p etiketlerini seçmeyi sağlar.  */
+
+/*.conteiner {
+    color:fuchsia;
+}  conteinerlerın tamamı renklenir. */
+
+/*.conteiner div {
+    color:fuchsia;
+}  conteinerlerin içerisindeki box olanları  renklendirr*/
+
+/*.conteiner div p {
+    color:fuchsia;
+}  Div içerisinde paragraf olanları renklendirir  */
+
+/*div,p{
+    color: crimson;
+}  tüm div ve p etikeletini etkiler ayrı ayrı da verilebilir. */
+
+p+div{
+    color: blueviolet;
+}
+div+p{
+    color:cyan;
+}
