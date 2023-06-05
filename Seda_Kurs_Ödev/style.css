@@ -7,15 +7,8 @@
 }
 
 body {
-    background-image: url(../Görseller/gozlukgil.jpg);
+  
     font-family: sans-serif;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-
-
-
 
 }
 
@@ -30,19 +23,20 @@ body {
 }
 
 .menu-bar ul li {
-    width: 150px;
-    padding: 1rem;
+    
+    padding-left: 1rem;
+    padding-right: 1rem;;
 }
 
 .menu-bar ul li a {
     text-decoration: none;
-    color: rgb(26, 16, 16);
+    color: white
 }
 
-.active,
-.menu-bar ul li:hover {
-    background: lightgreen;
-    border-radius: 10px;
+
+.menu-bar ul li a:hover {
+    color:#3375ec;
+   
 }
 
 .menu-bar .fas {
@@ -90,8 +84,36 @@ body {
 }
 
 .navbar-brand{ 
- margin: 2rem ;
+
 
  display: flex;
   
+}
+.header-navbar {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 400px);
+}
+.header-logo {
+    display: inline-block;
+    text-align: center;
+}
+.header-button {
+
+}
+.header {
+
+ padding: 2rem;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+main {
+    height: 800px;
+    background-image: url(../Görseller/gozlukgil.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
