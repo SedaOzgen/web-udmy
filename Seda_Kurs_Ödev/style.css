@@ -117,3 +117,6 @@ main {
     background-attachment: fixed;
     background-size: cover;
 }
+.header-button{
+    width: 100px;
+}
