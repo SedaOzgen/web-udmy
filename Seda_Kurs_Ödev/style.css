@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -78,3 +79,127 @@ body {
     justify-content: center;
     align-items: center;
   }
+=======
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+  
+    font-family: sans-serif;
+
+}
+
+.menu-bar {
+
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    
+    padding-left: 1rem;
+    padding-right: 1rem;;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white
+}
+
+
+.menu-bar ul li a:hover {
+    color:#3375ec;
+   
+}
+
+.menu-bar .fas {
+    margin-right: 8px;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+}
+
+.sub-menu {
+    display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+
+}
+
+.menu-bar ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+    cursor: pointer;
+
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+    color: rgb(230, 56, 56)
+}
+
+.navbar-brand{ 
+
+
+ display: flex;
+  
+}
+.header-navbar {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 400px);
+}
+.header-logo {
+    display: inline-block;
+    text-align: center;
+}
+.header-button {
+
+}
+.header {
+
+ padding: 2rem;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+main {
+    height: 800px;
+    background-image: url(../Görseller/gozlukgil.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header-button{
+    width: 100px;
+}
+>>>>>>> 919815549c0f147a2a4ceb2805fa2a8f809b3274
